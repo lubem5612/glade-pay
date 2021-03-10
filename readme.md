@@ -23,6 +23,7 @@ You'll then need to run composer install or composer update to download it and h
 
 Skip this step if using Laravel >=5.5 as the service will be registered automatically
 Once installed, you need to register the service provider. Open up config/app.php and add the following to the providers key.
+
 "providers" => [
 		.....
 		
@@ -89,8 +90,12 @@ return [
 ## Usage
 
 ``` bash
-Open your .env file and add your glade merchant key, glade merchant id, and glade api base (https://api.glade.ng) url like so:
-get more information on the endpoint at https://developer.glade.ng/api/#getting-started
+Open your .env file and add your glade merchant key, glade merchant id, 
+and glade api base (https://api.glade.ng) url like so:
+get more information on the endpoint at 
+```
+[glade developer page](https://developer.glade.ng/api/#getting-started)
+```
 
 GLADE_MERCHANT_ID=xxxxxxxxxxxxx
 
@@ -126,7 +131,7 @@ class GladePayController extends Controller
 you can include routes in routes/web or routes/api like so:
 Route::post('/payment', [\App\Http\Controllers\GladePayController::class, 'initiate'])->name('payment');
 
-if using with routes/api, see image example
+if using with routes/api, 
 test with POSTMAN by sending a POST request to the url http://127.0.0.1:8000/api/payment with these form keys
 amount (required), email (optional), firstname (optional), lastname (optional), business_name (optional)
 
@@ -140,11 +145,11 @@ if using routes/web an example form is shown
     <div class="row" style="margin-bottom:40px;">
         <div class="col-md-8 col-md-offset-2">
             
-            <input name="email"> {{-- optional --}}
-            <input name="firstname"> {{-- optional --}}
-            <input name="lastname"> {{-- optional --}}
-            <input name="business_name"> {{-- optional --}}
-            <input type="hidden" name="amount"> {{-- number required --}}
+            <input name="email" placeholder="enter email oprional"> {{-- optional --}}
+            <input name="firstname" placeholder="enter first name optional"> {{-- optional --}}
+            <input name="lastname" placeholder="enter last name optional"> {{-- optional --}}
+            <input name="business_name" placeholder="enter business name optional"> {{-- optional --}}
+            <input name="amount" placeholder="enter amount required"> {{-- number required --}}
             
             @csrf
 
