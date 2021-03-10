@@ -127,9 +127,13 @@ you can include routes in routes/web or routes/api like so:
 Route::post('/payment', [\App\Http\Controllers\GladePayController::class, 'initiate'])->name('payment');
 
 if using with routes/api, see image example
+test with POSTMAN by sending a POST request to the url http://127.0.0.1:8000/api/payment with these form keys
+amount (required), email (optional), firstname (optional), lastname (optional), business_name (optional)
 
+an example is shown through the link
+```
 ![Postman](https://github.com/lubem5612/glade-pay/blob/master/postman.png)
-
+```
 if using routes/web an example form is shown
 
 <form method="POST" action="{{ route('payment') }}" accept-charset="UTF-8" class="form-horizontal" role="form">
