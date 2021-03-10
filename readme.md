@@ -184,9 +184,9 @@ MIT. Please see the [license file](license.md) for more information.
 [ico-travis]: https://img.shields.io/travis/lubem/gladepay/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/lubem/gladepay
-[link-downloads]: https://packagist.org/packages/lubem/gladepay
-[link-travis]: https://travis-ci.org/lubem/gladepay
+[link-packagist]: https://packagist.org/packages/lubem5612/glade-pay
+[link-downloads]: https://packagist.org/packages/lubem5612/glade-pay
+[link-travis]: https://travis-ci.org/lubem5612/glade-pay
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/lubem
+[link-author]: https://github.com/lubem5612
 [link-contributors]: ../../contributors

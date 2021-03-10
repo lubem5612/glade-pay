@@ -9,7 +9,7 @@
             "homepage": "http://enginlubem.com.ng"
         }
     ],
-    "homepage": "https://github.com/lubem/gladepay",
+    "homepage": "https://github.com/lubem5612/glade-pay",
     "keywords": ["Laravel", "GladePay"],
     "require": {
         "illuminate/support": "~7|~8"
