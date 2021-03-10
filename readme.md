@@ -130,7 +130,7 @@ if using with routes/api, see image example
 test with POSTMAN by sending a POST request to the url http://127.0.0.1:8000/api/payment with these form keys
 amount (required), email (optional), firstname (optional), lastname (optional), business_name (optional)
 
-an example is shown through the link
+an example is shown like so:
 ```
 ![Postman](https://github.com/lubem5612/glade-pay/blob/master/postman.png)
 ```
