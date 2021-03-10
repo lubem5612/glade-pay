@@ -128,7 +128,7 @@ Route::post('/payment', [\App\Http\Controllers\GladePayController::class, 'initi
 
 if using with routes/api, see image example
 
-![alt text](https://github.com/lubem5612/glade-pay/blob/master/postman.png?raw=true)
+![Postman](https://github.com/lubem5612/glade-pay/blob/master/postman.png?raw=true)
 
 if using routes/web an example form is shown
 
