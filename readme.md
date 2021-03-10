@@ -126,13 +126,11 @@ class GladePayController extends Controller
 you can include routes in routes/web or routes/api like so:
 Route::post('/payment', [\App\Http\Controllers\GladePayController::class, 'initiate'])->name('payment');
 
-#if using with routes/api,
-send a POST request at http://127.0.0.1:8000/api/payment with these keys
-amount (required), email (optional), firstname (optional), lastname (optional), business_name (optional)
-``` 
+if using with routes/api, see image example
+
 ![Postman](https://github.com/lubem5612/glade-pay/blob/master/postman.png)
-```
-#if using routes/web an example form is shown
+
+if using routes/web an example form is shown
 
 <form method="POST" action="{{ route('payment') }}" accept-charset="UTF-8" class="form-horizontal" role="form">
     <div class="row" style="margin-bottom:40px;">
@@ -188,10 +186,9 @@ MIT. Please see the [license file](license.md) for more information.
 [ico-travis]: https://img.shields.io/travis/lubem/gladepay/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/lubem5612/glade-pay
-[link-downloads]: https://packagist.org/packages/lubem5612/glade-pay
+[link-packagist]: https://packagist.org/packages/lubem/gladepay
+[link-downloads]: https://packagist.org/packages/lubem/gladepay
 [link-travis]: https://travis-ci.org/lubem5612/glade-pay
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/lubem5612
 [link-contributors]: ../../contributors
-[postman]: https://github.com/lubem5612/glade-pay/blob/master/postman.png
